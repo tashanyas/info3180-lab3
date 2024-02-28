@@ -1,3 +1,47 @@
 body {
     padding-top: 5rem;
 }
+
+
+.flashes{
+    padding: 0;
+}
+
+.flashes li{
+    list-style: none;
+    background-color: rgba(24, 175, 18, 0.2);
+    border-radius: 6px;
+    border: 1px solid rgb(24, 175, 18);
+    padding: 10px 5px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.input-label{
+    font-weight: bold;
+}
+
+.input-label span{
+    color: red;
+}
+
+.input-field p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+input, textarea{
+    width: 20rem;
+}
+button{
+    padding: 10px 2.5rem;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background: #0c6efd;
+}
